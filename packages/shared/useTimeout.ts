@@ -1,4 +1,4 @@
-import { useState, useLayoutEffect, useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 
 interface UseTimeoutHandler {
   start: () => any;
@@ -42,7 +42,7 @@ function useTimeout(
         window.clearTimeout(timeout);
       };
     }
-  }, [isTimeoutActive]);
+  }, [isTimeoutActive, timeoutDelayMs]);
   return {
     clear,
     start,

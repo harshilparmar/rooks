@@ -38,6 +38,7 @@
         "use-fresh-tick",
         "use-fullscreen",
         "use-geolocation",
+        "use-in-view-ref",
         "use-input",
         "use-intersection-observer-ref",
         "use-interval",
@@ -49,6 +50,7 @@
         "use-localstorage",
         "use-localstorage-state",
         "use-map-state",
+        "use-media-match",
         "use-merge-refs",
         "use-mouse",
         "use-multi-selectable-list",
@@ -80,6 +82,7 @@
         "use-visibility-sensor",
         "use-will-unmount",
         "use-window-event-listener",
+        "use-window-scroll-position",
         "use-window-size",
         "use-worker"
       ]
